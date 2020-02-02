@@ -1,0 +1,299 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container-fluid,
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact-form {
+    background: rgba(255, 131, 197, 0.132);
+    padding: 10px;
+}
+
+placeholder {
+    font-size: 40px;
+}
+
+.pics-frame {
+    width: 70%;
+    align-items: center;
+}
+
+.contact-her {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 131, 197, 0.303);
+    margin: 40px;
+}
+
+.contact-her p {
+    padding: 0 20px;
+}
+
+/* global */
+h1,
+h2,
+h3,
+h4 {
+    color: #737476;
+    padding-top: 50px;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: #737476;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.gallery-wording {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.gallery-wording a {
+    color: #737476;
+    text-decoration: underline;
+    color: #FF83C6;
+}
+
+/* navbar */
+#navbarNavDropdown ul li a {
+    font-size: 15px;
+    color: #737476;
+}
+
+.btn-danger {
+    background:#FF83C6;
+    border: none;
+}
+
+.btn-danger:hover {
+    background:rgba(255, 131, 197, 0.509);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: rgba(255, 131, 197, 0.166);
+    background-color: rgba(255, 131, 197, 0.166);
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.nav-item a {
+    font-size: 16px;
+}
+
+.navbar-nav>li:hover {
+    background: rgba(255, 131, 197, 0.166);
+}
+
+/* button */
+.book-now {
+    padding: 50px;
+}
+
+/* footer */
+footer {
+    margin-top: 60px;
+    background-color: #737476;
+    width: 100%;
+}
+
+footer p {
+    padding: 15px 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* reference */
+.reference-container {
+    padding: 20px 0;
+    display: flex;
+}
+
+.reference_hannah {
+    display: flex;
+    font-size: 17px;
+    color: #737476;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* social media */
+.icons i {
+    font-size: 40px;
+    padding: 20px;
+    color: #737476;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.icons i:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* carousel */
+#carouselExampleIndicators li {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+}
+
+/* heading about me etc */
+.heading-scroll img {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    height: auto;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+/* bridal */
+.bridal img {
+
+    padding-top: 40px;
+}
+
+/* special occasion, special effects */
+.special-occasions-images,
+.special-effects-images,
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.special-occasions-images img,
+.special-effects-images img,
+.gallery-images img {
+    height: 170px;
+    margin: 10px 5px;
+    transition: all 1s;
+}
+
+.special-occasions-images img:hover,
+.special-effects-images img:hover,
+.gallery-images img:hover {
+    transform: scale(1.1);
+}
+
+/* pricelist */
+.container-pricing {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.price {
+    display: flex;
+   flex-direction: row;
+}
+
+.pricing-table {
+    background: rgb(255, 131, 197, 0.132);
+    margin: 10px;
+}
+
+.title-header {
+    color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.list {
+    padding: 10px 20px;
+}
+
+.list li {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #737476;
+    list-style: none;
+    text-align: center;
+}
+
+.border {
+    width: 100px;
+    height: 1px;
+    margin: auto;
+}
+
+.table1 .title {
+    background: rgb(255, 131, 197, 0.344);
+}
+
+.please-note {
+    font-size: 14px;
+    padding: 60px 0;
+    color: #737476;
+    text-align: center;
+}
+
+@media all and (max-width: 480px) {
+    p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .gallery-wording {
+        padding: 20px;
+    }
+
+    #carouselExampleIndicators li {
+        display: none;
+    }
+}
